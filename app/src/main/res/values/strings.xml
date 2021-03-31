@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">final</string>
+    <!--Main Activity-->
+    <string name="texto_inicio">Elija el tipo de operacion</string>
+    <string name="btn_envio_operaciones">Elegir</string>
+    <!--Activity Suma-->
+    <string name="suma">+</string>
+    <string name="btn_suma">Calcular</string>
+    <string name="resultado_suma">Resultado</string>
+    <!--Activity Resta-->
+    <string name="resta">-</string>
+    <string name="btn_resta">Calcular</string>
+    <string name="resultado_resta">Resultado</string>
+    <!--Activity Multiplicacion-->
+    <string name="multiplicacion">*</string>
+    <string name="btn_mult">Calcular</string>
+    <string name="resultado_mult">Resultado</string>
+    <!--Activity Division-->
+    <string name="division">/</string>
+    <string name="btn_division">Calcular</string>
+    <string name="resultado_div">Resultado</string>
+    <!--Activity Potencia-->
+    <string name="potencia">^</string>
+    <string name="btn_potencia">Calcular</string>
+    <string name="resultado_potencia">Resultado</string>
+    <!--Activity Raiz-->
+    <string name="mensaje_raiz">Escriba un numero para sacar la raiz cuadrada</string>
+    <string name="btn_raiz">Calcular</string>
+    <string name="resultado_raiz">Resultado</string>
+    <!--Content description-->
+    <string name="home">home</string>
+    <string name="documentacion">documentacion</string>
+</resources>

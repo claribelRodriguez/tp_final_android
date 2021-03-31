@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_potencia"
+    tools:context=".Potencia">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintVertical_bias="0.500">
+
+        <EditText
+            android:id="@+id/numero_poten_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/abril_fatface"
+            android:inputType="number"
+            android:textColor="@color/negro_tenue" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potencia"
+            android:textColor="@color/negro_tenue" />
+
+        <EditText
+            android:id="@+id/numero_poten_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/abril_fatface"
+            android:inputType="number"
+            android:textColor="@color/negro_tenue" />
+
+        <Button
+            android:id="@+id/btnCalcularPoten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_color"
+            android:fontFamily="@font/abril_fatface"
+            android:text="@string/btn_potencia"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/resultado_potencia"
+        android:textColor="@color/blanco_tenue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <TextView
+        android:id="@+id/resultadoPoten"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textColor="@color/blanco_tenue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.252" />
+</androidx.constraintlayout.widget.ConstraintLayout>
